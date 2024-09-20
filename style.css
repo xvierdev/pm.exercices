@@ -16,12 +16,15 @@ ul{
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
     text-align: center;
 }
 
 fieldset{
-    box-shadow: 1px 1px 2px black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
     margin: auto;
 }
 
@@ -40,12 +43,21 @@ nav{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     text-align: center;
     font-style: italic;
     bottom: 0;
     padding: 2%;
     width: 95%;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+}
+
+textarea{
+    resize:none;
 }
 
 a{
@@ -89,6 +101,15 @@ a.dev:hover{
     display: block;
     margin:auto;
 }
+
 .semantic_image:hover{
     width: 31%;
+}
+
+img.content{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
 }
